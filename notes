@@ -1,0 +1,5 @@
+========================================
+HOW TO RUN THE PROJECT LOCALLY (WINDOWS)
+========================================
+
+   streamlit run app.py

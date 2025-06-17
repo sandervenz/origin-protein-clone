@@ -1,0 +1,20 @@
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore backup files
+backup/
+
+# Ignore repository clones
+Repo/
+
+# Ignore results/output files
+results/
+
+# Ignore environment Variable
+.env
+
+# Ignore Params
+params/
+
+# Ignore venv
+venv/
