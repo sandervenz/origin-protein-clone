@@ -134,7 +134,6 @@ python-dateutil
 python-dotenv
 python-multipart
 pytz
-pywin32==306
 PyYAML
 pyzmq==25.0.2
 referencing
