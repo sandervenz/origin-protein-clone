@@ -46,7 +46,7 @@ dependencies:
   - werkzeug
   # --- Visualization & GUI ---
   - matplotlib
-  - py3dmol
+  - py3Dmol
   # --- Utilities & Others ---
   - appdirs
   - attrs
