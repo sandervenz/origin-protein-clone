@@ -1,5 +1,31 @@
-========================================
-HOW TO RUN THE PROJECT LOCALLY (WINDOWS)
-========================================
+# How to Run the Project with Docker (Quick Guide)
 
-   streamlit run app.py
+## Prerequisites
+- Git
+- Docker & Docker Compose
+
+# Create the .env file from the example
+# Then, edit the .env file and add your API key.
+# It should contain: MISTRAL_KEY=xxxxxxxxxxxx
+
+## Build & Run Commands
+
+# Build the Docker image (run this once initially)
+docker-compose build
+
+# Run the application
+docker-compose up
+
+# Access the app in your browser at:
+# http://localhost:8501
+
+## Other Commands
+
+# Run in the background (detached)
+docker-compose up -d
+
+# View logs (if running in detached mode)
+docker-compose logs -f
+
+# Stop and remove the container
+docker-compose down

@@ -1,0 +1,11 @@
+# Ignore version control folders
+.git
+.gitignore
+
+# Ignore the environment file to keep secrets out of the image
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo

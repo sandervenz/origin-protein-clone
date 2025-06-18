@@ -1,0 +1,80 @@
+name: protein_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  # --- Core Scientific & Data ---
+  - numpy
+  - pandas
+  - scipy
+  - biopython
+  - sqlalchemy
+  - h5py
+  - pyarrow
+  - scikit-learn
+  # --- TensorFlow CPU & Dependencies ---
+  - tensorflow-cpu
+  - absl-py
+  - astunparse
+  - cachetools
+  - flatbuffers
+  - gast
+  - google-pasta
+  - grpcio
+  - keras
+  - libclang
+  - markdown
+  - protobuf==3.20.3
+  - tensorboard
+  - termcolor
+  - wrapt
+  # --- Web Framework & Server ---
+  - fastapi
+  - streamlit
+  - uvicorn
+  - aiofiles
+  - aiohttp
+  - aiosignal
+  - anyio
+  - jinja2
+  - python-dotenv
+  - python-multipart
+  - starlette
+  - websockets
+  - werkzeug
+  # --- Visualization & GUI ---
+  - matplotlib
+  - py3dmol
+  # --- Utilities & Others ---
+  - appdirs
+  - attrs
+  - click
+  - filelock
+  - gitpython
+  - openmm
+  - pdbfixer
+  - pillow
+  - pydantic
+  - pyyaml
+  - requests
+  - rich
+  - tqdm
+
+  - pip:
+    - jax[cpu] 
+    - mistralai
+    - chex
+    - dm-haiku
+    - dm-tree
+    - etils
+    - flax
+    - ml_collections
+    - optax
+    - orbax-checkpoint
+    - tensorstore
+    - gradio_client
+    - huggingface-hub
+    - pyperclip
+    - "colabfold @ git+https://github.com/sokrypton/ColabFold@v1.5.5"

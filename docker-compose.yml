@@ -1,0 +1,16 @@
+services:
+  protein-app:
+    # Build the image from the Dockerfile in the current directory (.)
+    build: .
+    # Name the container for easier management
+    container_name: protein_design_app
+    # Map port 8501 on your computer to port 8501 in the container
+    ports:
+      - "8501:8501"
+    # Mount the current directory into the container's /app directory
+    # This allows for hot-reloading: change code locally and see it update in the container
+    volumes:
+      - ./:/app
+    # Load environment variables from the .env file (for MISTRAL_KEY)
+    env_file:
+      - .env
